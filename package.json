@@ -1,0 +1,17 @@
+{
+  "name": "query-mbtiles",
+  "version": "0.0.1",
+  "description": "Find nearest features to a point in an mbtiles file",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Steve Bennett <me@stevebennett.me> (http://stevebennett.me)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.10.0",
+    "@mapbox/vtquery": "^0.3.0",
+    "global-mercator": "^3.0.3",
+    "zlib": "^1.0.5"
+  }, "keywords": ["mbtiles","point","polygon","geojson","query","lookup"],
+  "files": ["index.js"]
+}
