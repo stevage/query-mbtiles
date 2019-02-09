@@ -13,5 +13,6 @@
     "global-mercator": "^3.0.3",
     "zlib": "^1.0.5"
   }, "keywords": ["mbtiles","point","polygon","geojson","query","lookup"],
-  "files": ["index.js"]
+  "files": ["index.js"],
+  "repository": "https://github.com/stevage/query-mbtiles"
 }
