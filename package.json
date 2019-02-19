@@ -1,6 +1,6 @@
 {
   "name": "query-mbtiles",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Find nearest features to a point in an mbtiles file",
   "main": "index.js",
   "scripts": {},
