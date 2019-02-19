@@ -17,7 +17,9 @@ see https://github.com/mapbox/vtquery
 */
 async function queryLngLat(tileset, lngLat, zoom, options = {}) {
     // actually it's a filename we have to load first
-    if (tileset.constructor.name === 'String') {
+    if (!tileset) {
+        throw 'No tileset provided.'
+    } else if (typeof tileset === 'String') {
         tileset = await loadTiles(tileset + '?mode=ro'); 
     }
     const [x, y, z] = mercator.lngLatToGoogle(lngLat, zoom);
