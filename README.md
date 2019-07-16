@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/query-mbtiles.png)](https://nodei.co/npm/query-mbtiles/)
+
 ### Query-Mbtiles
 
 Find the closest features to a lngLat inside a .mbtiles file.
